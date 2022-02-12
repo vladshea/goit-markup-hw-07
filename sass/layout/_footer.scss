@@ -1,0 +1,140 @@
+.footer {
+  background-color: var(--background-color);
+}
+.footer-conteiner {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.address-list {
+  margin-top: 20px;
+}
+
+.logo-web-footer {
+  color: #2196f3;
+}
+
+.logo-studio-footer {
+  color: #ffffff;
+}
+
+.address-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link-map {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.address-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-social {
+  margin-left: 70px;
+}
+
+.footer-social-text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16px / 14px);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-item + .footer-social-item {
+  margin-left: 10px;
+}
+
+.footer-social-link {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+  }
+}
+
+.footer-social-icon {
+  fill: #fff;
+  width: 20px;
+  height: 20px;
+}
+
+.footer-submit {
+  margin-left: 93px;
+  position: absolute;
+  right: 30px;
+  top: 72px;
+}
+
+.footer-submit-text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-email-form {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 16px;
+  color: #fff;
+}
+
+.footer-submit-btn {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  margin-left: 12px;
+}
+
+.footer-btn-icon-svg {
+  width: 143px;
+  height: 30px;
+}
+
+.footer-submit-wrap {
+  display: flex;
+  align-items: center;
+}

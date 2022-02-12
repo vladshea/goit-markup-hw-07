@@ -1,0 +1,18 @@
+@import './utils/base';
+@import './utils/hidden';
+@import './utils/mixins';
+@import './utils/placeholders';
+@import './utils/vars';
+@import './utils/_is-hidden.scss';
+
+@import './components/_conteiner.scss';
+@import './components/_modal.scss';
+
+@import './layout/_header.scss';
+@import './layout/_hero.scss';
+@import './layout/_about.scss';
+@import './layout/_wwd.scss';
+@import './layout/_team.scss';
+@import './layout/_clients.scss';
+@import './layout/_footer.scss';
+@import './layout/_portfolio.scss';
